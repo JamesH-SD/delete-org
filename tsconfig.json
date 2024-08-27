@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["es2020", "dom"],
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      "@acivilate/shared-code": ["./lib/shared/code"],
+      "@acivilate/shared-infra": ["./lib/shared/infra"],
+      "@acivilate/org-delete-shared": ["./lib/delete-org/lambdas/shared"]
+    },
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "cdk.out", "old_code"]
+}
