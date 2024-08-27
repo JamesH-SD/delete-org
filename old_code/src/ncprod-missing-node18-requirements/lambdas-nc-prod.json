@@ -1,0 +1,267 @@
+[
+  {
+    "name": "mypokket-custom-authorizer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-email_notifier_kinesis-consumer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-facial-recognition-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-govcloud-video-call-permission-check-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-graphql-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-log-to-lambda-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-monitor-expiring-shares-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-mysql-binlog-kinesis-producer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-pokket-user-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-reassign_case_kinesis-consumer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-signed-url-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-sms-listener-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-sns-listener-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-sp-onboarding-listener-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-ws-connect-handler-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-custom-message-trigger-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-jwt-keys-downloader-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-user-verification-status-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-govcloud-video-call-log-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-lambda-warmer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-pokket-search-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-rds-to-dynamodb-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-unassign-participant-service-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-username-exists-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-ws-on-message-handler-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-broadcast_notifier_kinesis-consumer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-admin-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-pre-auth-trigger-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-presignup-trigger-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-resend-confirmation-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-signup-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-email-pruner-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-kinesis-failed-events-handler-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-kms-helper-prod",
+    "env": "prod",
+    "runtime": "nodejs14.x"
+  },
+  {
+    "name": "mypokket-notification-notifier-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-plan-template-generator-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-provider-search-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-rds-to-dynamodb-sync-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-s3-listener-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-server-utilities-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-task-counts-calculator-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-unread_notif_counts_kinesis-consumer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-antivirus-definitions-downloader-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-cognito-post-auth-trigger-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-kinesis-producer-create-cognito-user-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-reports-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-sms-enabled-participants-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-task_counts_kinesis-consumer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-update-temp-pwd-reset-flag-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-ws-disconnect-handler-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-antivirus-scanner-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-assigned-participants-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  },
+  {
+    "name": "mypokket-kinesis-consumer-prod",
+    "env": "prod",
+    "runtime": "nodejs18.x"
+  }
+]

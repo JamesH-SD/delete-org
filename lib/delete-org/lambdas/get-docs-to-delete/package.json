@@ -1,0 +1,25 @@
+{
+  "name": "@acivilate/get-docs-to-delete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.143"
+  },
+  "dependencies": {
+    "@acivilate/org-delete-shared": "workspace:*",
+    "@acivilate/shared-code": "workspace:*",
+    "@aws-lambda-powertools/logger": "^2.7.0",
+    "@aws-lambda-powertools/metrics": "^2.7.0",
+    "@aws-lambda-powertools/tracer": "^2.7.0",
+    "@aws-sdk/client-sqs": "^3.637.0",
+    "knex": "^3.1.0",
+    "mysql2": "^3.11.0"
+  }
+}
